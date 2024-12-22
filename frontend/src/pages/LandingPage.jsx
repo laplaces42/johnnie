@@ -1,5 +1,6 @@
 import MenuBar from "../components/MenuBar";
 import "../stylesheets/LandingPage.css";
+
 export function LandingPage() {
   return (
     <div className="lp">
