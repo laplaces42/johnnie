@@ -1,9 +1,11 @@
 .menu-bar {
+    top: 0;
+    position: sticky;
   display: flex;
-  position: absolute;
   justify-content: space-between;
   width: 100vw;
   padding: 15px 20px;
+  background-color: white;
   border-bottom: 0.1px grey solid;
 }
 

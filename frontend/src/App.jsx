@@ -1,12 +1,12 @@
 
 import LandingPage from './pages/LandingPage'
-import NewPage from "./pages/NewPage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
-      {/* <NewPage /> */}
+      {/* <LandingPage /> */}
+      <AboutPage />
 
       {/* <header className="App-header">
         <p>

@@ -5,8 +5,7 @@
 
 .lp1, .lp2, .lp3 {
     width: 100vw;
-    height: 100vh;
-    /* position: absolute; */
+    height: 90vh;
 }
 
 .lp-title {

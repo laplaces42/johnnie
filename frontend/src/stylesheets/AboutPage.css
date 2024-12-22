@@ -1,0 +1,25 @@
+.ab1, .ab2, .ab3, .ab4, .ab5 {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 15vh;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 5vh;
+}
+
+.ab3-founders{
+    display: flex;
+}
+
+.ab3-founder1, .ab3-founder2 {
+    padding: 10px 120px;
+}
