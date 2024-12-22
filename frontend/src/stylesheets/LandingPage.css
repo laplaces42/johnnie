@@ -1,0 +1,65 @@
+.lp {
+    display: flex;
+    flex-direction: column;
+}
+
+.lp1, .lp2, .lp3 {
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute; */
+}
+
+.lp-title {
+    text-align: center;
+    font-size: 22vh;
+    margin-top: 30vh;
+    margin-bottom: 0;
+}
+
+.lp-description {
+    text-align: center;
+    font-size: larger;
+    color: grey;
+}
+
+.lp1-buttons {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+
+}
+
+.lp1-button {
+    margin: 0 20px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lp2-section1, .lp2-section2{
+    height: 50%;
+    display: flex;
+}
+
+.lp2-image {
+    padding: 0 5vw;
+}
+
+.lp2-subtitle{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.lp2-description{
+    padding: 0 50px;
+    font-size: large;
+}
+
+.lp3-subtitle{
+    text-align: center;
+    font-size: xx-large;
+}

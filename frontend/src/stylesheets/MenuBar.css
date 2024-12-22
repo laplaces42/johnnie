@@ -1,0 +1,38 @@
+.menu-bar {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 15px 20px;
+  border-bottom: 0.1px grey solid;
+}
+
+.menu-bar-title-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+}
+
+.menu-bar-title {
+  margin: 0;
+  font-size: xx-large;
+  margin: 0 10px;
+}
+
+.menu-bar-buttons {
+    align-self: center;
+}
+
+.menu-bar-button {
+  background-color: transparent;
+  border: 0px;
+  margin: 0px 5px;
+}
+
+.menu-bar-button:hover {
+  cursor: pointer;
+}
