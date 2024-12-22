@@ -10,6 +10,12 @@
 .menu-bar-title-logo {
   display: flex;
   align-items: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.menu-bar-title-logo:hover{
+    cursor: pointer;
 }
 
 .logo{
@@ -31,8 +37,10 @@
   background-color: transparent;
   border: 0px;
   margin: 0px 5px;
+  transition: transform 0.3s;
 }
 
 .menu-bar-button:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }

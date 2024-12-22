@@ -38,15 +38,29 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.lp1-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .lp2-section1, .lp2-section2{
     height: 50%;
     display: flex;
+    /* justify-content: space-evenly; */
 }
 
 .lp2-image {
-    padding: 0 5vw;
+    transform: scale(.8);
+    /* padding: 20px 40px; */
+    flex: 1;
+    /* padding: 0 5vw; */
+}
+
+.lp2-text {
+    flex: 1;
 }
 
 .lp2-subtitle{
@@ -55,8 +69,28 @@
 }
 
 .lp2-description{
-    padding: 0 50px;
+    padding: 0 100px;
+    text-align: center;
     font-size: large;
+}
+
+.lp2-button {
+    display: block;
+    margin: auto;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+
+}
+
+.lp2-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .lp3-subtitle{

@@ -1,11 +1,13 @@
-import '../stylesheets/MenuBar.css'
+import "../stylesheets/MenuBar.css";
 
 export function MenuBar() {
   return (
     <div className="menu-bar">
-      <div className="menu-bar-title-logo">
-        <img className='logo' src="/images/logo.png" alt="" />
-        <p className="menu-bar-title">Johnnie</p>
+      <div >
+        <button className="menu-bar-title-logo">
+          <img className="logo" src="/images/logo.png" alt="" />
+          <p className="menu-bar-title">Johnnie</p>
+        </button>
       </div>
       <div className="menu-bar-buttons">
         <button className="menu-bar-button">Search Grants</button>

@@ -5,8 +5,8 @@ import NewPage from "./pages/NewPage";
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
-      <NewPage />
+      <LandingPage />
+      {/* <NewPage /> */}
 
       {/* <header className="App-header">
         <p>
