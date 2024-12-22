@@ -1,8 +1,10 @@
 import MenuBar from "../components/MenuBar";
 import { motion } from "framer-motion";
+import { useNavigate, useParams } from "react-router-dom";
 import "../stylesheets/LandingPage.css";
 
 export function LandingPage() {
+    const navigate = useNavigate();
   return (
     <div className="lp">
       <MenuBar />
@@ -18,8 +20,8 @@ export function LandingPage() {
           modeling.
         </p>
         <div className="lp1-buttons">
-          <button className="lp1-button">Search for Grants</button>
-          <button className="lp1-button">Hire a Grant Writer</button>
+          <button onClick={() => navigate("/search")} className="lp1-button">Search for Grants</button>
+          <button onClick={() => navigate("/hire")} className="lp1-button">Hire a Grant Writer</button>
         </div>
       </motion.div>
 
@@ -39,7 +41,7 @@ export function LandingPage() {
               inventore placeat ratione? Totam excepturi adipisci officiis
               reprehenderit rerum!
             </p>
-            <button className="lp2-button">Search for Grants</button>
+            <button onClick={() => navigate("/search")} className="lp2-button">Search for Grants</button>
           </div>
           <img className="lp2-image" src="/images/dollar_sign.pn" alt="" />
         </motion.div>
@@ -59,7 +61,7 @@ export function LandingPage() {
               inventore placeat ratione? Totam excepturi adipisci officiis
               reprehenderit rerum!
             </p>
-            <button className="lp2-button">Hire a Grant Writer</button>
+            <button onClick={() => navigate("/hire")} className="lp2-button">Hire a Grant Writer</button>
           </div>
         </motion.div>
       </div>
