@@ -1,0 +1,42 @@
+.bottom-menu-bar {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align vertically */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add some padding */
+    z-index: 1000; /* Ensures it stays above other elements */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow */
+}
+
+.bottom-menu-left {
+    flex: 1; /* Pushes content to the left */
+}
+
+.bottom-menu-right {
+    display: flex; /* Group links together */
+    gap: 15px; /* Add spacing between links */
+}
+
+.bottom-menu-link {
+    color: white; /* Match text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Adjust font size */
+    transition: color 0.3s ease; /* Add hover effect */
+}
+
+.bottom-menu-link:hover {
+    color: #f0a500; /* Highlight link on hover */
+}
+
+.bottom-menu-bar.hidden {
+    transform: translateY(100%); /* Moves the bar out of view */
+}
+
+.bottom-menu-bar.visible {
+    transform: translateY(0); /* Moves the bar into view */
+}
