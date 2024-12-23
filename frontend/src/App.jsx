@@ -5,37 +5,39 @@ import AboutPage from "./pages/AboutPage";
 import SearchPage from "./pages/SearchPage";
 import ContactPage from "./pages/ContactPage";
 import HirePage from "./pages/HirePage";
+import MenuBar from "./components/MenuBar";
 import BottomMenuBar from "./components/BottomMenuBar";
 
 function App() {
 
-  const [isBottomVisible, setIsBottomVisible] = useState(false);
+  // const [isBottomVisible, setIsBottomVisible] = useState(false);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const windowHeight = window.innerHeight;
-            const documentHeight = document.documentElement.scrollHeight;
+  //   useEffect(() => {
+  //       const handleScroll = () => {
+  //           const scrollTop = window.scrollY;
+  //           const windowHeight = window.innerHeight;
+  //           const documentHeight = document.documentElement.scrollHeight;
 
-            // Check if the user has scrolled to the bottom
-            if (scrollTop + windowHeight >= documentHeight - 10) {
-                setIsBottomVisible(true);
-            } else {
-                setIsBottomVisible(false);
-            }
-        };
+  //           // Check if the user has scrolled to the bottom
+  //           if (scrollTop + windowHeight >= documentHeight - 10) {
+  //               setIsBottomVisible(true);
+  //           } else {
+  //               setIsBottomVisible(false);
+  //           }
+  //       };
 
-        window.addEventListener("scroll", handleScroll);
+  //       window.addEventListener("scroll", handleScroll);
 
-        // Cleanup the event listener
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+  //       // Cleanup the event listener
+  //       return () => {
+  //           window.removeEventListener("scroll", handleScroll);
+  //       };
+  //   }, []);
 
   return (
     <BrowserRouter>
       <div className="App">
+      <MenuBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -43,7 +45,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/hire" element={<HirePage />} />
         </Routes>
-        <BottomMenuBar visible={isBottomVisible} />
+        <BottomMenuBar />
       </div>
     </BrowserRouter>
   );

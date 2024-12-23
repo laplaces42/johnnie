@@ -1,6 +1,7 @@
 .menu-bar {
-    top: 0;
-    position: sticky;
+  top: 0;
+  z-index: 999;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   width: 100vw;
@@ -16,13 +17,13 @@
   background-color: transparent;
 }
 
-.menu-bar-title-logo:hover{
-    cursor: pointer;
+.menu-bar-title-logo:hover {
+  cursor: pointer;
 }
 
-.logo{
-    width: 40px;
-    height: auto;
+.logo {
+  width: 40px;
+  height: auto;
 }
 
 .menu-bar-title {
@@ -32,7 +33,7 @@
 }
 
 .menu-bar-buttons {
-    align-self: center;
+  align-self: center;
 }
 
 .menu-bar-button {

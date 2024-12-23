@@ -1,6 +1,4 @@
-import MenuBar from "../components/MenuBar";
 import "../stylesheets/AboutPage.css";
-import BottomMenuBar from "../components/BottomMenuBar";
 
 export function AboutPage() {
   return (
@@ -76,7 +74,6 @@ export function AboutPage() {
     //   </div>
     // </div>
     <div className="ab">
-      <MenuBar />
       <div className="ab1">
         <h1>About Johnnie</h1>
         <p>
@@ -154,7 +151,6 @@ export function AboutPage() {
       <div className="ab5">
         <h2>Contact Us</h2>
       </div>
-      <BottomMenuBar />
     </div>
   );
 }

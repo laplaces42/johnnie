@@ -2,7 +2,7 @@
     display: flex; /* Use flexbox for alignment */
     justify-content: space-between; /* Space between left and right sections */
     align-items: center; /* Align vertically */
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%; /* Full width */
@@ -33,10 +33,4 @@
     color: #f0a500; /* Highlight link on hover */
 }
 
-.bottom-menu-bar.hidden {
-    transform: translateY(100%); /* Moves the bar out of view */
-}
 
-.bottom-menu-bar.visible {
-    transform: translateY(0); /* Moves the bar into view */
-}

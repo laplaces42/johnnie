@@ -1,8 +1,8 @@
 import "../stylesheets/BottomMenuBar.css";
 
-export function BottomMenuBar({ visible }) {
+export function BottomMenuBar() {
     return (
-        <div className={`bottom-menu-bar ${visible ? "visible" : "hidden"}`}>
+        <div className={`bottom-menu-bar`}>
             <div className="bottom-menu-left">
                 <p>© 2025 Johnnie. All rights reserved.</p>
             </div>

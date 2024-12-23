@@ -1,4 +1,3 @@
-import MenuBar from "../components/MenuBar";
 import { motion } from "framer-motion";
 import { useNavigate, useParams } from "react-router-dom";
 import "../stylesheets/LandingPage.css";
@@ -7,7 +6,6 @@ export function LandingPage() {
     const navigate = useNavigate();
   return (
     <div className="lp">
-      <MenuBar />
       <motion.div
         className="lp1"
         initial={{ opacity: 0, y: 50 }}

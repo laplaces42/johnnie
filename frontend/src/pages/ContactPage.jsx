@@ -1,12 +1,9 @@
 import "../stylesheets/ContactPage.css";
-import MenuBar from "../components/MenuBar";
-import BottomMenuBar from "../components/BottomMenuBar";
 
 
 export function ContactPage() {
     return (
         <div className="cp">
-            <MenuBar />
             <div className="ab4">
                 <h2>Get Started</h2>
                 <p>
@@ -20,7 +17,6 @@ export function ContactPage() {
                     ></iframe>
                 </div>
             </div>
-            <BottomMenuBar />
         </div>
     );
 }
