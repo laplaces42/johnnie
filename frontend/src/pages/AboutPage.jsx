@@ -1,5 +1,6 @@
 import MenuBar from "../components/MenuBar";
 import "../stylesheets/AboutPage.css";
+import BottomMenuBar from "../components/BottomMenuBar";
 
 export function AboutPage() {
   return (
@@ -153,6 +154,7 @@ export function AboutPage() {
       <div className="ab5">
         <h2>Contact Us</h2>
       </div>
+      <BottomMenuBar />
     </div>
   );
 }
