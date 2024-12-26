@@ -11,11 +11,14 @@ export function MenuBar() {
         </button>
       </div>
       <div className="menu-bar-buttons">
-        <button onClick={() => navigate("/search")} className="menu-bar-button">
+        {/* <button onClick={() => navigate("/search")} className="menu-bar-button">
           Search Grants
         </button>
         <button onClick={() => navigate("/hire")} className="menu-bar-button">
           Hire a Grant Writer
+        </button> */}
+        <button onClick={() => navigate("/")} className="menu-bar-button">
+          Pricing and FAQ
         </button>
         <button onClick={() => navigate("/about")} className="menu-bar-button">
           About Johnnie
@@ -24,7 +27,7 @@ export function MenuBar() {
           onClick={() => navigate("/contact")}
           className="menu-bar-button"
         >
-          Contact Us
+          Get Started
         </button>
       </div>
     </div>
