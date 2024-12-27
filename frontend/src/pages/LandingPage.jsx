@@ -18,8 +18,9 @@ export function LandingPage() {
           modeling.
         </p>
         <div className="lp1-buttons">
-          <button onClick={() => navigate("/search")} className="lp1-button">Search for Grants</button>
-          <button onClick={() => navigate("/hire")} className="lp1-button">Hire a Grant Writer</button>
+          <button onClick={() => navigate("/search")} className="lp1-button">Get Started</button>
+          {/* <button onClick={() => navigate("/search")} className="lp1-button">Search for Grants</button>
+          <button onClick={() => navigate("/hire")} className="lp1-button">Hire a Grant Writer</button> */}
         </div>
       </motion.div>
 
