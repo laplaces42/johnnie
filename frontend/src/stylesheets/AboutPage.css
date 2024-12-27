@@ -1,6 +1,6 @@
 .ab1, .ab2, .ab3, .ab4, .ab5 {
     width: 100vw;
-    height: auto;
+    height: 70vh;
     text-align: center;
 }
 
@@ -18,8 +18,10 @@ h2 {
 
 .ab3-founders{
     display: flex;
+    
 }
 
 .ab3-founder1, .ab3-founder2 {
     padding: 10px 120px;
+    flex: 1;
 }
