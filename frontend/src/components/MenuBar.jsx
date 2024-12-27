@@ -22,7 +22,7 @@ export function MenuBar() {
         </button>
         <button
           onClick={() => navigate("/contact")}
-          className="menu-bar-button"
+          className="menu-bar-button contact-box"
         >
           Contact Us
         </button>
