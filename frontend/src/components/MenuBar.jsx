@@ -17,7 +17,7 @@ export function MenuBar() {
         <button onClick={() => navigate("/hire")} className="menu-bar-button">
           Hire a Grant Writer
         </button> */}
-        <button onClick={() => navigate("/")} className="menu-bar-button">
+        <button onClick={() => navigate("/pricing")} className="menu-bar-button">
           Pricing and FAQ
         </button>
         <button onClick={() => navigate("/about")} className="menu-bar-button">
