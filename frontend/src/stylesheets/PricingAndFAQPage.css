@@ -1,0 +1,22 @@
+/* Container for centering and sizing */
+.typeform-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width of the parent container */
+    height: 400px; /* Height of the Typeform box */
+    margin: 20px auto; /* Add space and center the container */
+    max-width: 600px; /* Set a maximum width */
+    border: 1px solid #ddd; /* Add a border for better visibility */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    overflow: hidden; /* Ensures iframe content stays within bounds */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+/* Style the iframe */
+.typeform-iframe {
+    width: 100%; /* Occupies full width of the container */
+    height: 100%; /* Occupies full height of the container */
+    border: none; /* Removes default iframe borders */
+}

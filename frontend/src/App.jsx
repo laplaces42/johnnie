@@ -7,6 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import HirePage from "./pages/HirePage";
 import MenuBar from "./components/MenuBar";
 import BottomMenuBar from "./components/BottomMenuBar";
+import { PricingAndFAQPage } from "./pages/PricingAndFAQPage";
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/pricing" element={<PricingAndFAQPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/hire" element={<HirePage />} />
