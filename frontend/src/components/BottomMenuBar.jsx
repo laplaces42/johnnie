@@ -4,7 +4,7 @@ export function BottomMenuBar() {
     return (
         <div className={`bottom-menu-bar`}>
             <div className="bottom-menu-left">
-                <p>© 2025 Johnnie. All rights reserved.</p>
+                <p>© 2025 Johnnie USA. All rights reserved.</p>
             </div>
             <div className="bottom-menu-right">
                 <a href="/terms-and-conditions" className="bottom-menu-link">Terms and Conditions</a>

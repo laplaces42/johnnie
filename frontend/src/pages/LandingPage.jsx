@@ -12,13 +12,12 @@ export function LandingPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="lp-title">Johnnie</h1>
+        <h1 className="lp-title">Grantwriting Reimagined.</h1>
         <p className="lp-description">
-          Redefining the business model of grantwriting for better business
-          modeling.
+          Grantwriting shouldn't be a gamble. Let's make finding more funding sustainable and accessible.
         </p>
         <div className="lp1-buttons">
-          <button onClick={() => navigate("/search")} className="lp1-button">Get Started</button>
+          <button onClick={() => navigate("/contact")} className="lp1-button">Get Started</button>
           {/* <button onClick={() => navigate("/search")} className="lp1-button">Search for Grants</button>
           <button onClick={() => navigate("/hire")} className="lp1-button">Hire a Grant Writer</button> */}
         </div>
