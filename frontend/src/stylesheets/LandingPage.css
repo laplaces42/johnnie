@@ -3,7 +3,12 @@
     flex-direction: column;
 }
 
-.lp1, .lp2, .lp3 {
+.lp1 {
+    width: 100vw;
+    height: 50vh;
+}
+
+.lp2, .lp3 {
     width: 100vw;
     height: 90vh;
 }
