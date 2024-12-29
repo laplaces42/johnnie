@@ -10,8 +10,8 @@
 
 .lp-title {
     text-align: center;
-    font-size: 22vh;
-    margin-top: 30vh;
+    font-size: 11vh;
+    margin-top: 14vh;
     margin-bottom: 0;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .lp2-description{
-    padding: 0 100px;
+    padding: 0 50px;
     text-align: center;
     font-size: large;
 }
