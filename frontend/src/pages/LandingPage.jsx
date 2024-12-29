@@ -32,14 +32,11 @@ export function LandingPage() {
           transition={{ duration: 0.8 }}
         >
           <div className="lp2-text">
-            <h2 className="lp2-subtitle">Grant Search</h2>
+            <h2 className="lp2-subtitle">About Johnnie</h2>
             <p className="lp2-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Repudiandae tempore id vitae aut odio explicabo exercitationem
-              inventore placeat ratione? Totam excepturi adipisci officiis
-              reprehenderit rerum!
+              Learn more about Johnnie's story and why we do what we do.
             </p>
-            <button onClick={() => navigate("/search")} className="lp2-button">Search for Grants</button>
+            <button onClick={() => navigate("/about")} className="lp2-button">About Johnnie</button>
           </div>
           <img className="lp2-image" src="/images/dollar_sign.pn" alt="" />
         </motion.div>
@@ -52,14 +49,11 @@ export function LandingPage() {
         >
           <img className="lp2-image" src="/images/form.pn" alt="" />
           <div className="lp2-text">
-            <h2 className="lp2-subtitle">Grant Writing</h2>
+            <h2 className="lp2-subtitle">Learn More</h2>
             <p className="lp2-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Repudiandae tempore id vitae aut odio explicabo exercitationem
-              inventore placeat ratione? Totam excepturi adipisci officiis
-              reprehenderit rerum!
+              Have questions? Want a price estimate for your nonprofit? Click below to get all your questions answered.
             </p>
-            <button onClick={() => navigate("/hire")} className="lp2-button">Hire a Grant Writer</button>
+            <button onClick={() => navigate("/pricing")} className="lp2-button">Pricing and FAQ</button>
           </div>
         </motion.div>
       </div>
