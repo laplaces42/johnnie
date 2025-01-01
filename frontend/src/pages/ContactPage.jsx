@@ -1,6 +1,5 @@
 import "../stylesheets/ContactPage.css";
 
-
 export function ContactPage() {
     return (
         <div className="cp">
