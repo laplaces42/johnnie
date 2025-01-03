@@ -180,7 +180,7 @@ export function AboutPage() {
       >
         <h2>Contact Us</h2>
         <p>
-          Want to get in touch? Feel free to email us at sales@johnnie.com!
+          Want to get in touch? Feel free to email us at team@johnniegrants.com!
         </p>
       </motion.div>
     </div>
