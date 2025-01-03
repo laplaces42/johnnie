@@ -1,6 +1,5 @@
 import "../stylesheets/ContactPage.css";
 
-
 export function ContactPage() {
     return (
         <div className="cp">
@@ -16,6 +15,11 @@ export function ContactPage() {
                         title="Typeform"
                     ></iframe>
                 </div>
+            </div>
+            <div classname="ab7">
+                <h4> Test</h4>
+                <h4> Test</h4>
+                <h4> Test</h4>
             </div>
         </div>
     );

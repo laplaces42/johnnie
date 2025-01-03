@@ -17,6 +17,7 @@ export function PricingAndFAQPage() {
                         title="Typeform"
                     ></iframe>
                 </div>
+                <h4> 2</h4>
             </div>
       </div>
       <FAQBar />

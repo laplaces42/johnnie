@@ -115,12 +115,11 @@ export function AboutPage() {
             <img src="" alt="" />
             <h3>Ishaan Sinha</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
-              aspernatur doloremque sint odit ipsum quas id possimus iste optio
-              nihil alias magni non laborum, natus ducimus sequi labore hic!
-              Iure quos perferendis ratione, harum mollitia voluptatum ea
-              praesentium natus placeat dolores, saepe expedita ab dolor. Porro
-              rem suscipit error facilis!
+              Ishaan is a Rice University undergraduate student studying
+              Electrical and Computer Engineering. He is passionate about 
+              user-centered design and making sure that this service truly helps
+              volunteer fire departments. Ishaan values the relationships and community
+              so strong in this space to overcome key challenges.
             </p>
           </div>
           <div className="ab3-founder2">
@@ -180,6 +179,9 @@ export function AboutPage() {
         transition={{ duration: 0.8 }}
       >
         <h2>Contact Us</h2>
+        <p>
+          Want to get in touch? Feel free to email us at team@johnniegrants.com!
+        </p>
       </motion.div>
     </div>
   );

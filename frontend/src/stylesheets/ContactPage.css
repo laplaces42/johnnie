@@ -12,11 +12,22 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     overflow: hidden; /* Ensures iframe content stays within bounds */
     background-color: #f9f9f9; /* Optional background color */
+    
 }
 
 /* Style the iframe */
 .typeform-iframe {
-    width: 100%; /* Occupies full width of the container */
-    height: 100%; /* Occupies full height of the container */
-    border: none; /* Removes default iframe borders */
+    width: 100%;
+    height: calc(100vh - 200px); /* Dynamically adjust height */
+    max-height: 600px; /* Optional: Limit maximum height */
+    border: none;
+}
+
+.ab7 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
 }

@@ -37,7 +37,7 @@ export function FAQBar() {
         ))}
       </div>
       <p>
-            Question didn't get answered? Feel free to contact us at sales@johnniegrants.com!
+            Question didn't get answered? Feel free to contact us at team@johnniegrants.com!
         </p>
     </div>
   );
