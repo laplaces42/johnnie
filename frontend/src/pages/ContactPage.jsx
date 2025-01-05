@@ -10,7 +10,7 @@ export function ContactPage() {
                 </p>
                 <div className="typeform-wrapper">
                     <iframe 
-                        src="https://form.jotform.com/250036113785048" 
+                        src="https://forms.fillout.com/t/4wjpvcz8xhus" 
                         className="typeform-iframe"
                         title="Typeform"
                     ></iframe>
