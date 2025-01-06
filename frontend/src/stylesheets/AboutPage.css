@@ -1,7 +1,21 @@
-.ab1, .ab2, .ab3, .ab5 {
+.ab1, .ab3 {
     width: 100vw;
-    height: 70vh;
+    height: 90vh;
     text-align: center;
+    background-color: #F3F3F3;
+    padding-top: 10%;
+}
+
+.ab1 {
+    padding-top: 20%;
+}
+
+.ab2 {
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    background-color: white;
+    padding-top: 10%;
 }
 
 .ab4 {
@@ -11,18 +25,29 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    background-color: white;
+}
+
+.ab5 {
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    background-color: #F3F3F3;
+    padding-top: 10%;
 }
 
 h1 {
-    margin-top: 100px;
+    margin: 0;
+    /* margin-top: 100px;
     margin-bottom: 30px;
-    font-size: 15vh;
+    font-size: 15vh; */
 }
 
 h2 {
-    margin-top: 100px;
+    margin: 0;
+    /* margin-top: 100px;
     margin-bottom: 30px;
-    font-size: 5vh;
+    font-size: 5vh; */
 }
 
 .ab3-founders{
@@ -31,6 +56,10 @@ h2 {
 }
 
 .ab3-founder1, .ab3-founder2 {
-    padding: 10px 120px;
+    margin: 10px 100px;
+    padding: 0 30px;
     flex: 1;
+    background-color: #001F3F;
+    border-radius: 10px;
+    color: white;
 }
