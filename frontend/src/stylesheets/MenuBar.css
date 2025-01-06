@@ -6,8 +6,10 @@
   justify-content: space-between;
   width: 100vw;
   padding: 15px 20px;
-  background-color: white;
+  background-color: #362E52;
   border-bottom: 0.1px grey solid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu-bar-title-logo {
@@ -15,25 +17,35 @@
   align-items: center;
   border: 0;
   background-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu-bar-title-logo:hover {
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .logo {
   width: 40px;
   height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu-bar-title {
   margin: 0;
   font-size: xx-large;
   margin: 0 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
 }
 
 .menu-bar-buttons {
   align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu-bar-button {
@@ -41,17 +53,22 @@
   border: 0px;
   margin: 0px 5px;
   transition: transform 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
 }
 
 .menu-bar-button:hover {
   cursor: pointer;
   transform: scale(1.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 
 .menu-bar-button.contact-box {
-  background-color: black;
+  background-color: #000000;
   color: white;
-  border: 2px solid black;
   padding: 8px 16px;
   border-radius: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

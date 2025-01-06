@@ -13,6 +13,8 @@
     overflow: hidden; /* Ensures iframe content stays within bounds */
     background-color: #f9f9f9; /* Optional background color */
     margin-bottom: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* Style the iframe */
@@ -20,4 +22,6 @@
     width: 100%; /* Occupies full width of the container */
     height: 100%; /* Occupies full height of the container */
     border: none; /* Removes default iframe borders */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }

@@ -6,7 +6,7 @@ export function MenuBar() {
     <div className="menu-bar">
       <div>
         <button onClick={() => navigate("/")} className="menu-bar-title-logo">
-          <img className="logo" src="/images/logo.png" alt="" />
+          <img className="logo" src="/images/logo_white.png" alt="" />
           <p className="menu-bar-title">Johnnie</p>
         </button>
       </div>

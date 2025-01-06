@@ -12,7 +12,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     overflow: hidden; /* Ensures iframe content stays within bounds */
     background-color: #f9f9f9; /* Optional background color */
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* Style the iframe */
@@ -21,13 +22,19 @@
     height: calc(100vh - 200px); /* Dynamically adjust height */
     max-height: 600px; /* Optional: Limit maximum height */
     border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .ab7 {
     text-align: center;
     color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h4 {
     color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
