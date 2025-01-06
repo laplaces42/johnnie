@@ -4,7 +4,7 @@ import { FAQBar } from "./FAQBar";
 export function PricingAndFAQPage() {
   return (
     <div className="pricing-page">
-      <div className="cp">
+      <div className="fp">
         <h2>Pricing</h2>
         <p>
           Our prices varies on depending on the funding opportunity. To get an
@@ -20,7 +20,7 @@ export function PricingAndFAQPage() {
         </div>
         <h4> 2</h4>
       </div>
-      <FAQBar />
+        <FAQBar />
     </div>
   );
 }

@@ -25,6 +25,11 @@
     background-color: #f9f9f9;
 }
 
-.cp {
-    
+.fp {
+    width: 100vw;
+    height: 81vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }

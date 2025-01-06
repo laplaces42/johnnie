@@ -36,7 +36,7 @@
 .lp1-button {
     margin: 0 20px;
     font-size: larger;
-    background-color: black;
+    background-color: #001F3F;
     color: white;
     border: 0;
     padding: 10px;
@@ -82,7 +82,7 @@
     display: block;
     margin: auto;
     font-size: larger;
-    background-color: black;
+    background-color: #001F3F;
     color: white;
     border: 0;
     padding: 10px;
