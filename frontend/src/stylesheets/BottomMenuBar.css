@@ -6,20 +6,26 @@
     bottom: 0;
     left: 0;
     width: 100%; /* Full width */
-    background-color: black; /* Black background */
+    background-color: #362E52; /* Black background */
     color: white; /* White text */
     padding: 10px 20px; /* Add some padding */
     z-index: 1000; /* Ensures it stays above other elements */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .bottom-menu-left {
     flex: 1; /* Pushes content to the left */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .bottom-menu-right {
     display: flex; /* Group links together */
     gap: 15px; /* Add spacing between links */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .bottom-menu-link {
@@ -27,10 +33,14 @@
     text-decoration: none; /* Remove underline */
     font-size: 14px; /* Adjust font size */
     transition: color 0.3s ease; /* Add hover effect */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .bottom-menu-link:hover {
     color: #f0a500; /* Highlight link on hover */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 

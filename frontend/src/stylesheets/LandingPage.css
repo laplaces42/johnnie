@@ -18,31 +18,35 @@
     font-size: 11vh;
     margin-top: 14vh;
     margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #008080;
 }
 
 .lp-description {
     text-align: center;
     font-size: larger;
-    color: grey;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lp1-buttons {
     display: flex;
     margin: 30px 0;
     justify-content: center;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lp1-button {
     margin: 0 20px;
     font-size: larger;
-    background-color: black;
+    background-color: #000000;
     color: white;
     border: 0;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lp1-button:hover{
@@ -70,26 +74,29 @@
 .lp2-subtitle{
     text-align: center;
     font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #008080;
 }
 
 .lp2-description{
     padding: 0 50px;
     text-align: center;
     font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lp2-button {
     display: block;
     margin: auto;
     font-size: larger;
-    background-color: black;
+    background-color: #000000;;
     color: white;
     border: 0;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lp2-button:hover {
@@ -100,4 +107,6 @@
 .lp3-subtitle{
     text-align: center;
     font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #008080;
 }
