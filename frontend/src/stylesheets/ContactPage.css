@@ -1,3 +1,20 @@
+.cp {
+    width: auto;
+    height: auto;
+}
+
+.cp-title {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.cp-description {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
 /* Container for centering and sizing */
 .typeform-wrapper {
     display: flex;
@@ -26,15 +43,15 @@
 
 }
 
-.ab7 {
+/* .ab7 {
     text-align: center;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
+} */
 
-h4 {
+ /* {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
+} */

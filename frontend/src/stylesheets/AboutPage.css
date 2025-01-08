@@ -40,8 +40,12 @@ h2 {
 }
 
 .ab3-founder1, .ab3-founder2 {
-    padding: 10px 120px;
+    margin: 10px 120px;
+    padding: 0 20px;
+    color: white;
     flex: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #362E52;
+    border-radius: 10px;
 
 }

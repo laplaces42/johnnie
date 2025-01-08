@@ -1,3 +1,13 @@
+.pricing-title {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.pricing-description {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Container for centering and sizing */
 .typeform-wrapper {
     display: flex;
