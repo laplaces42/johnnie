@@ -112,7 +112,7 @@ export function AboutPage() {
         <h2>Meet the Founders</h2>
         <div className="ab3-founders">
           <div className="ab3-founder1">
-            <img src="" alt="" />
+            <img className="headshot" src="/images/ishaan_headshot.jpg" alt="" />
             <h3>Ishaan Sinha</h3>
             <p>
               Ishaan is a Rice University undergraduate student studying
@@ -123,7 +123,7 @@ export function AboutPage() {
             </p>
           </div>
           <div className="ab3-founder2">
-            <img src="" alt="" />
+            <img className="headshot" src="/images/laplace_headshot.jpg" alt="" />
             <h3>LaPlace Sallis IV</h3>
             <p>
               LaPlace is a Rice University undergraduate student currently

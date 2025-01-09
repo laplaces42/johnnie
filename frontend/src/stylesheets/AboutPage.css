@@ -49,3 +49,11 @@ h2 {
     border-radius: 10px;
 
 }
+
+.headshot {
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px white solid;
+
+}
