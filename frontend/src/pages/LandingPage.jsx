@@ -38,9 +38,16 @@ export function LandingPage() {
             </p>
             <button onClick={() => navigate("/about")} className="lp2-button">About Johnnie</button>
           </div>
-          <img className="lp2-image" src="/images/dollar_sign.pn" alt="" />
+          {/* <img className="lp2-image" src="/images/dollar_sign.pn" alt="" /> */}
+          <div className="lp2-text">
+            <h2 className="lp2-subtitle">Learn More</h2>
+            <p className="lp2-description">
+              Have questions? Want a price estimate for your nonprofit? Click below to get all your questions answered.
+            </p>
+            <button onClick={() => navigate("/pricing")} className="lp2-button">Pricing and FAQ</button>
+          </div>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           className="lp2-section2"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +62,7 @@ export function LandingPage() {
             </p>
             <button onClick={() => navigate("/pricing")} className="lp2-button">Pricing and FAQ</button>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
       <motion.div
         className="lp3"
