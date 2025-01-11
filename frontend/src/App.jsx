@@ -12,7 +12,7 @@ import { PricingAndFAQPage } from "./pages/PricingAndFAQPage";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="App">
       <MenuBar />
         <Routes>
