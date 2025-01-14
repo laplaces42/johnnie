@@ -7,7 +7,8 @@ import ContactPage from "./pages/ContactPage";
 import HirePage from "./pages/HirePage";
 import MenuBar from "./components/MenuBar";
 import BottomMenuBar from "./components/BottomMenuBar";
-import { PricingAndFAQPage } from "./pages/PricingAndFAQPage";
+import PricingAndFAQPage from "./pages/PricingAndFAQPage";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/hire" element={<HirePage />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         </Routes>
         <BottomMenuBar />
       </div>

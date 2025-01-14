@@ -1,0 +1,13 @@
+.tc-group {
+    display: flex;
+}
+
+.tc {
+    width: 70vw;
+    padding: 20px;
+}
+
+h2 {
+    scroll-margin-top: 80px;
+  }
+  
