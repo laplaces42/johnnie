@@ -9,6 +9,7 @@ import MenuBar from "./components/MenuBar";
 import BottomMenuBar from "./components/BottomMenuBar";
 import PricingAndFAQPage from "./pages/PricingAndFAQPage";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/hire" element={<HirePage />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
         <BottomMenuBar />
       </div>

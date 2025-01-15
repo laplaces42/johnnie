@@ -4,7 +4,7 @@ import "../stylesheets/TermsAndConditions.css";
 export function TermsAndConditions() {
   return (
     <div className="tc-group">
-      <TCSidebar></TCSidebar>
+      <TCSidebar />
       <div className="tc">
         <h1>TERMS OF SERVICE</h1>
         <h2 id="overview">Overview</h2>

@@ -2,11 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.tc-group {
+.pp-group {
     display: flex;
 }
 
-.tc {
+.pp {
     width: 70vw;
     padding: 20px;
 }
