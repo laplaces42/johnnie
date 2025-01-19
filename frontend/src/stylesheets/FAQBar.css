@@ -81,3 +81,12 @@
 
   }
   
+  @media (max-width: 768px) {
+    .faq-bar h2 {
+        font-size: 8vw;
+    }
+
+    .faq-bar h3 {
+      font-size: 3vw;
+    }
+}
