@@ -1,70 +1,90 @@
 .ab {
-    padding-top: 200px;
-    width: 100vw;
-    height: fit-content;
+  padding-top: 200px;
+  width: 100vw;
+  height: fit-content;
 }
 
-.ab1, .ab2, .ab3, .ab5 {
-    width: 100vw;
-    height: 70vh;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+.ab1,
+.ab2,
+.ab3,
+.ab5 {
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-margin-top: 80px;
 }
 
 .ab4 {
-    width: 100vw;
-    height: 70vh;
-
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  width: 100vw;
+  height: 70vh;
+  scroll-margin-top: 80px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ab h1 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 6.5vw;
-    color: #008080;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 6.5vw;
+  color: #008080;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ab h2 {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    color: #008080;
-    font-size: 4.5vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: #008080;
+  font-size: 4.5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.ab3-founders{
-    width: 100vw;
-    display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+.ab1-buttons {
+  margin-top: 40px;
 }
 
-.ab3-founder1, .ab3-founder2 {
-    
-    margin: 1vh 5vw; 
-    /* margin: 10px 120px; */
-    padding: 0 20px;
-    color: white;
-    flex: 1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #362E52;
-    border-radius: 10px;
+.ab1-button {
+  display: inline-block;
+  margin: auto;
+  font-size: larger;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin: 10px 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
 
+.ab1-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.ab3-founders {
+  width: 100vw;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ab3-founder1,
+.ab3-founder2 {
+  margin: 1vh 5vw;
+  /* margin: 10px 120px; */
+  padding: 0 20px;
+  color: white;
+  flex: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #362e52;
+  border-radius: 10px;
 }
 
 .headshot {
-    height: 200px;
-    margin: 15px;
-    border-radius: 10px;
-    border: 2px white solid;
-
+  height: 200px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 2px white solid;
 }

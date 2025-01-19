@@ -3,77 +3,6 @@ import { motion } from "framer-motion";
 
 export function AboutPage() {
   return (
-    // <div className="about-page">
-    //   <MenuBar />
-    //   {/* Hero Section */}
-    //   <div className="hero-section">
-    //     <h1 className="hero-title">About Johnnie</h1>
-    //     <p className="hero-description">
-    //       Redefining the business model of grant writing for better business
-    //       modeling.
-    //     </p>
-    //   </div>
-
-    //   {/* Mission and Vision Section */}
-    //   <div className="mission-section">
-    //     <h2>Our Mission</h2>
-    //     <p>
-    //       At Johnnie, we aim to simplify the grant application process, empower
-    //       organizations, and provide unparalleled access to professional
-    //       grant-writing services.
-    //     </p>
-    //   </div>
-
-    //   {/* Founders Section */}
-    //   <div className="founders-section">
-    //     <h2>Meet the Founders</h2>
-    //     <div className="founders">
-    //       <div className="founder-card">
-    //         <img
-    //           src="/images/founder1.jpg"
-    //           alt="Founder 1"
-    //           className="founder-image"
-    //         />
-    //         <h3>Ishaan Sinha</h3>
-    //         <p>
-    //           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-    //           esse blanditiis repellat obcaecati magnam ipsum eos, similique
-    //           suscipit velit illum debitis, facilis ut provident quam?
-    //         </p>
-    //       </div>
-    //       <div className="founder-card">
-    //         <img
-    //           src="/images/founder2.jpg"
-    //           alt="Founder 2"
-    //           className="founder-image"
-    //         />
-    //         <h3>LaPlace Sallis IV</h3>
-    //         <p>
-    //           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
-    //           dolores ea mollitia atque placeat vero explicabo, enim impedit
-    //           totam nobis, consequuntur sed itaque excepturi voluptatem.
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    //   {/* General Information Section */}
-    //   <div className="info-section">
-    //     <h2>Our Story</h2>
-    //     <p>
-    //       Johnnie was founded in [Year] with the goal of transforming how people
-    //       approach grant writing. Since then, we've achieved [milestones].
-    //     </p>
-    //   </div>
-
-    //   {/* Call to Action Section */}
-    //   <div className="cta-section">
-    //     <p>
-    //       Ready to learn more? Get in touch with us or explore our services!
-    //     </p>
-    //     <button className="cta-button">Contact Us</button>
-    //   </div>
-    // </div>
     <motion.div
       className="ab"
       initial={{ opacity: 0, y: 50 }}
@@ -87,8 +16,14 @@ export function AboutPage() {
           Johnnie is a startup designed to change the grant writing and grant
           searching process for nonprofits everywhere.
         </p>
+        <div className="ab1-buttons">
+          <a className="ab1-button" href="#mission">Our Mission</a>
+          <a className="ab1-button" href="#founders">Meet the Founders</a>
+          <a className="ab1-button" href="#story">Our Story</a>
+          <a className="ab1-button" href="#contact">Contact Us</a>
+        </div>
       </div>
-      <div className="ab2">
+      <div id="mission" className="ab2">
         <h2>Our Mission</h2>
         <p>
           At Johnnie, we aim to simplify the grant application process, empower
@@ -96,7 +31,7 @@ export function AboutPage() {
           grant-writing services.
         </p>
       </div>
-      <div className="ab3">
+      <div id="founders" className="ab3">
         <h2>Meet the Founders</h2>
         <div className="ab3-founders">
           <div className="ab3-founder1">
@@ -133,7 +68,7 @@ export function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="ab4">
+      <div id="story" className="ab4">
         <h2>Our Story</h2>
         <p>
           Volunteer fire departments are the unsung heroes of our communities,
@@ -161,7 +96,7 @@ export function AboutPage() {
           better-equipped fire departments for the future.
         </p>
       </div>
-      <div className="ab5">
+      <div id="contact" className="ab5">
         <h2>Contact Us</h2>
         <p>
           Want to get in touch? Feel free to email us at team@johnniegrants.com!
