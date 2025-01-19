@@ -1,9 +1,16 @@
 import "../stylesheets/PricingAndFAQPage.css";
+import { motion } from "framer-motion";
 import { FAQBar } from "./FAQBar";
 
 export function PricingAndFAQPage() {
   return (
-    <div className="pricing-page">
+    <motion.div
+      className="pricing-page"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ amount: 0, once: true }}
+      transition={{ duration: 0.8 }}
+    >
       <div className="fp">
         <h2 className="pricing-title">Pricing</h2>
         <p className="pricing-description">
@@ -20,7 +27,7 @@ export function PricingAndFAQPage() {
         </div>
       </div>
       <FAQBar />
-    </div>
+    </motion.div>
   );
 }
 

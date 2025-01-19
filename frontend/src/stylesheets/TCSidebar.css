@@ -12,23 +12,21 @@
     text-align: left;
     background-color: transparent;
     margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     padding: 5px 10px;
     border: 2px black solid;
     border-radius: 5px;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 }
 
-.tc-sidebar-button {
-    color: black;
-}
 
 .tc-sidebar-button:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
-
-

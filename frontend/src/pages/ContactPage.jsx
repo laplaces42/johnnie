@@ -1,8 +1,15 @@
 import "../stylesheets/ContactPage.css";
+import { motion } from "framer-motion";
 
 export function ContactPage() {
   return (
-    <div className="cp">
+    <motion.div
+      className="cp"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ amount: 0, once: true }}
+      transition={{ duration: 0.8 }}
+    >
       <h2 className="cp-title">Get Started</h2>
       <p className="cp-description">
         Need a grant application completed at an affordable price? Fill out this
@@ -15,7 +22,7 @@ export function ContactPage() {
           title="Typeform"
         ></iframe>
       </div>
-    </div>
+    </motion.div>
   );
 }
 export default ContactPage;

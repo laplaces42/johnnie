@@ -156,12 +156,13 @@ export function PrivacyPolicy() {
           6340 Main Street, Houston, TX, 77005
           <br />
           503-433-2285
-        </p>
+        <br />
         <br />
         <br />
         This policy reflects our commitment to transparency and responsible data
         practices. By using our services, you accept the terms of this Privacy
         Policy.
+        </p>
       </div>
     </div>
   );

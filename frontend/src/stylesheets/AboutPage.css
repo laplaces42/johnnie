@@ -1,3 +1,9 @@
+.ab {
+    padding-top: 200px;
+    width: 100vw;
+    height: fit-content;
+}
+
 .ab1, .ab2, .ab3, .ab5 {
     width: 100vw;
     height: 70vh;
@@ -9,7 +15,7 @@
 .ab4 {
     width: 100vw;
     height: 70vh;
-    max-width: 800px;
+
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -17,30 +23,35 @@
 
 }
 
-h1 {
-    margin-top: 100px;
+.ab h1 {
+    margin-top: 0;
     margin-bottom: 30px;
-    font-size: 15vh;
+    font-size: 6.5vw;
+    color: #008080;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-h2 {
+.ab h2 {
     margin-top: 100px;
     margin-bottom: 30px;
-    font-size: 5vh;
+    color: #008080;
+    font-size: 4.5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 .ab3-founders{
+    width: 100vw;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 .ab3-founder1, .ab3-founder2 {
-    margin: 10px 120px;
+    
+    margin: 1vh 5vw; 
+    /* margin: 10px 120px; */
     padding: 0 20px;
     color: white;
     flex: 1;

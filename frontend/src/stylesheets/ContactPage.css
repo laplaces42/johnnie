@@ -1,11 +1,14 @@
 .cp {
     width: auto;
-    height: 78.64vh;
+    height: fit-content;
 }
 
 .cp-title {
     margin: 30px 0;
     text-align: center;
+    font-size: 3.5vw;
+    color: #008080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cp-description {
@@ -21,7 +24,7 @@
     justify-content: center;
     align-items: center;
     width: 100%; /* Full width of the parent container */
-    height: 400px; /* Height of the Typeform box */
+    height: fit-content; /* Height of the Typeform box */
     margin: 20px auto; /* Add space and center the container */
     max-width: 600px; /* Set a maximum width */
     border: 1px solid #ddd; /* Add a border for better visibility */
@@ -36,22 +39,9 @@
 /* Style the iframe */
 .typeform-iframe {
     width: 100%;
-    height: calc(100vh - 200px); /* Dynamically adjust height */
+    height: calc(100vh - 200px); 
     max-height: 600px; /* Optional: Limit maximum height */
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-/* .ab7 {
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-} */
-
- /* {
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-} */

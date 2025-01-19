@@ -138,7 +138,7 @@ export function TermsAndConditions() {
         </p>
         <h2 id="termination">Section 11 - Termination</h2>
         <p>
-          JJohnnie reserves the right to terminate service to any user for
+          Johnnie reserves the right to terminate service to any user for
           violations of these Terms or other applicable policies. Termination
           does not absolve you of obligations incurred prior to the termination
           date.
