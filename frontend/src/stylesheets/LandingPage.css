@@ -6,7 +6,7 @@
 
 .lp1, .lp2, .lp3 {
     width: 100vw;
-    height: 50vh;
+    height: fit-content;
 }
 
 .lp-title {
@@ -34,7 +34,7 @@
 
 .lp1-button {
     margin: 0 20px;
-    font-size: larger;
+    font-size: 2vw;
     background-color: #000000;
     color: white;
     border: 0;
@@ -84,7 +84,7 @@
 .lp2-button {
     display: block;
     margin: auto;
-    font-size: larger;
+    font-size: 1.5vw;
     background-color: #000000;;
     color: white;
     border: 0;
@@ -118,3 +118,30 @@
     } */
     
 }
+
+@media (max-width: 768px) {
+    .lp-title {
+        font-size: 9vw;
+    }
+
+    .lp-description {
+        font-size: 4vw;
+    }
+    .lp2-section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lp2-description {
+        font-size: 3vw;
+    }
+
+    .lp1-button {
+        font-size: 4vw;
+    }
+    
+    .lp2-button {
+        font-size: 3vw;
+    }
+  }
+  
