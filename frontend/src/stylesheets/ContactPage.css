@@ -1,6 +1,6 @@
 .cp {
     width: auto;
-    height: fit-content;
+    height: 78.65vh;
 }
 
 .cp-title {
@@ -19,12 +19,12 @@
 
 
 /* Container for centering and sizing */
-.typeform-wrapper {
+.cp .typeform-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%; /* Full width of the parent container */
-    height: fit-content; /* Height of the Typeform box */
+    height: 57vh; /* Height of the Typeform box */
     margin: 20px auto; /* Add space and center the container */
     max-width: 600px; /* Set a maximum width */
     border: 1px solid #ddd; /* Add a border for better visibility */
@@ -37,9 +37,9 @@
 }
 
 /* Style the iframe */
-.typeform-iframe {
+.cp .typeform-iframe {
     width: 100%;
-    height: calc(100vh - 200px); 
+    height: 100%; 
     max-height: 600px; /* Optional: Limit maximum height */
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

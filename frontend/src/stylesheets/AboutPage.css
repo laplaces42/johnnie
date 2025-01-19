@@ -7,22 +7,14 @@
 .ab1,
 .ab2,
 .ab3,
+.ab4,
 .ab5 {
   width: 100vw;
-  height: 70vh;
+  height: fit-content;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   scroll-margin-top: 80px;
-}
-
-.ab4 {
-  width: 100vw;
-  height: 70vh;
-  scroll-margin-top: 80px;
-  margin: 0 auto;
   padding: 20px;
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ab h1 {
@@ -53,7 +45,7 @@
   text-decoration: none;
   background-color: black;
   color: white;
-  margin: 10px 30px;
+  margin: 10px 1vw;
   padding: 10px 30px;
   border-radius: 10px;
   transition: transform 0.3s;
@@ -65,7 +57,6 @@
 }
 
 .ab3-founders {
-  width: 100vw;
   display: flex;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -87,4 +78,19 @@
   margin: 15px;
   border-radius: 10px;
   border: 2px white solid;
+}
+
+@media (max-width: 768px) {
+  .ab1-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ab3-founders {
+    flex-direction: column;
+  }
+
+  .ab h2 {
+    font-size: 8vw;
+  }
 }
