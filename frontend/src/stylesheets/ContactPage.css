@@ -1,6 +1,7 @@
 .cp {
     width: auto;
-    height: 78.65vh;
+    padding: 20px;
+    height: 85vh;
 }
 
 .cp-title {
@@ -44,4 +45,14 @@
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+@media (max-width: 768px) {
+    .cp-title {
+        font-size: 7vw;
+    }
+
+    .cp .typeform-wrapper {
+        height: 65%;
+    }
 }

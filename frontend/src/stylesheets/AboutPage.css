@@ -90,6 +90,10 @@
     flex-direction: column;
   }
 
+  .ab h1 {
+    font-size: 10vw;
+  }
+
   .ab h2 {
     font-size: 8vw;
   }
