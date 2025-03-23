@@ -17,7 +17,7 @@
     margin-top: 14vh;
     margin-bottom: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #008080;
+    color: #68132e;
 }
 
 .lp-description {
@@ -73,7 +73,7 @@
     text-align: center;
     font-size: 4.5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #008080;
+    color: #68132e;
 }
 
 .lp2-description{
@@ -106,7 +106,7 @@
     text-align: center;
     font-size: 5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #008080;
+    color: #68132e;
 }
 
 @media screen and (max-width: 720px) {
@@ -147,3 +147,6 @@
     }
   }
   
+  /* 68132e
+  c0482a
+  e9a138 */

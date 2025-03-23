@@ -6,7 +6,7 @@
     bottom: 0;
     left: 0;
     width: 100%; /* Full width */
-    background-color: #362E52; /* Black background */
+    background-color: black; /* Black background */
     color: white; /* White text */
     padding: 10px 20px; /* Add some padding */
     z-index: 1000; /* Ensures it stays above other elements */

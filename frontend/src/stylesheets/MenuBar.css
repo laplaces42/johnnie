@@ -6,7 +6,7 @@
   justify-content: space-between;
   width: 100vw;
   padding: 15px 20px;
-  background-color: #362E52;
+  background-color: black;
   border-bottom: 0.1px grey solid;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -70,8 +70,8 @@
 }
 
 .menu-bar-button.contact-box {
-  background-color: #000000;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 8px 16px;
   border-radius: 4px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,7 +130,7 @@
 
   .burger-button:hover {
     cursor: pointer;
-    color: #008080;
+    color: #68132e;
     font-size: 22px;
 
   }
