@@ -4,6 +4,20 @@ import "../stylesheets/LandingPage.css";
 
 export function LandingPage() {
     const navigate = useNavigate();
+    const testimonials = [
+      {
+          text: "Johnnie helped us secure the funding we needed to keep our programs running.",
+          person: "Nonprofit Organization A"
+      },
+      {
+          text: "The grant writing services provided by Johnnie were top-notch and very effective.",
+          person: "Nonprofit Organization B"
+      },
+      {
+          text: "Thanks to Johnnie, we were able to expand our outreach and impact more lives.",
+          person: "Nonprofit Organization C"
+      }
+  ];
   return (
     <div className="lp">
       <motion.div
@@ -72,7 +86,14 @@ export function LandingPage() {
         transition={{ duration: 0.8 }}
       >
         <h2 className="lp3-subtitle">Testimonials</h2>
-        <p>Coming Soon!</p>
+        <div className="lp3-testimonials">
+                    {testimonials.map((testimonial, index) => (
+                        <div key={index} className="testimonial-card">
+                            <p className="testimonial-text">"{testimonial.text}"</p>
+                            <p className="testimonial-person">- {testimonial.person}</p>
+                        </div>
+                    ))}
+                </div>
       </motion.div>
     </div>
   );
